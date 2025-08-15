@@ -13,13 +13,14 @@ It provides actionable insights for improving profitability, identifying top-per
 
 --------------------------------------------------------------------------------------------------------
 
-DAX Measures Created
-dax// Core Business Metrics
+##DAX Measures Created
+##dax// Core Business Metrics
+
 Total Sales = SUM(Sales[Sales])
 Total Profit = SUM(Sales[Profit])
 Profit Margin % = DIVIDE([Total Profit], [Total Sales]) * 100
 
-// Performance Classification
+##// Performance Classification
 Performance Category = 
 IF([Profit Margin %] >= 20, "High Performer",
    IF([Profit Margin %] >= 10, "Medium Performer", 
